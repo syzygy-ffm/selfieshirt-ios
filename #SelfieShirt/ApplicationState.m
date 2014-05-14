@@ -53,7 +53,7 @@ NSString *const NotificationDeviceUpdated = @"NotificationDeviceUpdated";
                      object:nil];
         
         //Prepare settings
-        NSDictionary *appDefaults = [NSDictionary dictionaryWithObjectsAndKeys: @"http://selfie-shirt.cloudapp.net", @"server_url",
+        NSDictionary *appDefaults = [NSDictionary dictionaryWithObjectsAndKeys: @"http://selfieshirt.cloudapp.net", @"server_url",
                                      @YES, @"hashtag1_enabled",
                                      @"selfie", @"hashtag1_tag",
                                      EffectDefault, @"hashtag1_animation",

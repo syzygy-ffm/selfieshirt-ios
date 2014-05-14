@@ -16,7 +16,7 @@
 			<key>AutocorrectionType</key>
 			<string>No</string>
 			<key>DefaultValue</key>
-			<string>http://selfie-shirt.cloudapp.net</string>
+			<string>http://selfieshirt.cloudapp.net</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>Key</key>
