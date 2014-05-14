@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0DE42B18DCE21E006D8A77 /* connection.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE42518DCE21E006D8A77 /* connection.png */; };
+		4D0DE42D18DCE21E006D8A77 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE42718DCE21E006D8A77 /* info.png */; };
+		4D0DE42F18DCE21E006D8A77 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE42918DCE21E006D8A77 /* twitter.png */; };
+		4D0DE43518DCE8E2006D8A77 /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE43118DCE8E2006D8A77 /* flash.png */; };
+		4D0DE43718DCE8E2006D8A77 /* reconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE43318DCE8E2006D8A77 /* reconnect.png */; };
+		4D0DE43E18DE52F2006D8A77 /* connection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE43918DE52F2006D8A77 /* connection@2x.png */; };
+		4D0DE43F18DE52F2006D8A77 /* flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE43A18DE52F2006D8A77 /* flash@2x.png */; };
+		4D0DE44018DE52F2006D8A77 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE43B18DE52F2006D8A77 /* info@2x.png */; };
+		4D0DE44118DE52F2006D8A77 /* reconnect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE43C18DE52F2006D8A77 /* reconnect@2x.png */; };
+		4D0DE44218DE52F2006D8A77 /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0DE43D18DE52F2006D8A77 /* twitter@2x.png */; };
+		4D2A57BB18C774AE0045F70F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A57BA18C774AE0045F70F /* MainViewController.m */; };
+		4D2A57C118C775690045F70F /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A57C018C775690045F70F /* InfoViewController.m */; };
+		4D3FD28518C4E0A5005B9774 /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3FD28418C4E0A5005B9774 /* TweetViewController.m */; };
+		4D3FD28B18C5BDCF005B9774 /* BPreplayExtended.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3FD28918C5BDCF005B9774 /* BPreplayExtended.otf */; };
+		4D3FD28C18C5BDCF005B9774 /* BPreplayExtendedBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D3FD28A18C5BDCF005B9774 /* BPreplayExtendedBold.otf */; };
+		4D9B8C0918CF6E30009EF105 /* default-selfie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D9B8C0818CF6E30009EF105 /* default-selfie.jpg */; };
+		4D9C888D185878C800A36E6F /* ApplicationState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C888C185878C800A36E6F /* ApplicationState.m */; };
+		4D9F9E50185154D600ED63C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9F9E4F185154D600ED63C6 /* Foundation.framework */; };
+		4D9F9E52185154D600ED63C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9F9E51185154D600ED63C6 /* CoreGraphics.framework */; };
+		4D9F9E54185154D600ED63C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9F9E53185154D600ED63C6 /* UIKit.framework */; };
+		4D9F9E5A185154D600ED63C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D9F9E58185154D600ED63C6 /* InfoPlist.strings */; };
+		4D9F9E5C185154D600ED63C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F9E5B185154D600ED63C6 /* main.m */; };
+		4D9F9E60185154D600ED63C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F9E5F185154D600ED63C6 /* AppDelegate.m */; };
+		4D9F9E63185154D600ED63C6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9F9E61185154D600ED63C6 /* Main_iPhone.storyboard */; };
+		4D9F9E6B185154D600ED63C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9F9E6A185154D600ED63C6 /* Images.xcassets */; };
+		4D9F9E881851552500ED63C6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9F9E871851552500ED63C6 /* CoreBluetooth.framework */; };
+		4DB22EC818964F120067B923 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DB22EC718964F120067B923 /* Settings.bundle */; };
+		4DBA434718FD3D7900DA5374 /* ExtendedNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA434618FD3D7900DA5374 /* ExtendedNSLog.m */; };
+		4DD6AF7518C67D430073210E /* TweetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6AF7418C67D430073210E /* TweetsViewController.m */; };
+		4DD6AF8718C68CED0073210E /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD6AF8618C68CED0073210E /* ConnectionViewController.m */; };
+		4DF1A3DA18521C3000E866ED /* BluetoothDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1A3D918521C3000E866ED /* BluetoothDevice.m */; };
+		4DF305C818C9DF5C002595A0 /* info-banner.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DF305C718C9DF5C002595A0 /* info-banner.png */; };
+		4DFEF91C18D8FCA800C003B2 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFEF91A18D8FCA800C003B2 /* NSDate+TimeAgo.m */; };
+		4DFEF91D18D8FCA800C003B2 /* NSDateTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DFEF91B18D8FCA800C003B2 /* NSDateTimeAgo.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D0DE42518DCE21E006D8A77 /* connection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connection.png; sourceTree = "<group>"; };
+		4D0DE42718DCE21E006D8A77 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		4D0DE42918DCE21E006D8A77 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		4D0DE43118DCE8E2006D8A77 /* flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flash.png; sourceTree = "<group>"; };
+		4D0DE43318DCE8E2006D8A77 /* reconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reconnect.png; sourceTree = "<group>"; };
+		4D0DE43918DE52F2006D8A77 /* connection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connection@2x.png"; sourceTree = "<group>"; };
+		4D0DE43A18DE52F2006D8A77 /* flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash@2x.png"; sourceTree = "<group>"; };
+		4D0DE43B18DE52F2006D8A77 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		4D0DE43C18DE52F2006D8A77 /* reconnect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reconnect@2x.png"; sourceTree = "<group>"; };
+		4D0DE43D18DE52F2006D8A77 /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		4D2A57B918C774AE0045F70F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4D2A57BA18C774AE0045F70F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4D2A57BF18C775690045F70F /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		4D2A57C018C775690045F70F /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		4D3FD28318C4E0A5005B9774 /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		4D3FD28418C4E0A5005B9774 /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		4D3FD28918C5BDCF005B9774 /* BPreplayExtended.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BPreplayExtended.otf; sourceTree = "<group>"; };
+		4D3FD28A18C5BDCF005B9774 /* BPreplayExtendedBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BPreplayExtendedBold.otf; sourceTree = "<group>"; };
+		4D9B8C0818CF6E30009EF105 /* default-selfie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "default-selfie.jpg"; sourceTree = "<group>"; };
+		4D9C888B185878C800A36E6F /* ApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationState.h; sourceTree = "<group>"; };
+		4D9C888C185878C800A36E6F /* ApplicationState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationState.m; sourceTree = "<group>"; };
+		4D9F9E4C185154D600ED63C6 /* #SelfieShirt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#SelfieShirt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9F9E4F185154D600ED63C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D9F9E51185154D600ED63C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D9F9E53185154D600ED63C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D9F9E57185154D600ED63C6 /* #SelfieShirt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "#SelfieShirt-Info.plist"; sourceTree = "<group>"; };
+		4D9F9E59185154D600ED63C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D9F9E5B185154D600ED63C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D9F9E5D185154D600ED63C6 /* #SelfieShirt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "#SelfieShirt-Prefix.pch"; sourceTree = "<group>"; };
+		4D9F9E5E185154D600ED63C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D9F9E5F185154D600ED63C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D9F9E62185154D600ED63C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4D9F9E6A185154D600ED63C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D9F9E71185154D600ED63C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D9F9E871851552500ED63C6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4DB22EC718964F120067B923 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		4DBA434518FD3D7900DA5374 /* ExtendedNSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendedNSLog.h; sourceTree = "<group>"; };
+		4DBA434618FD3D7900DA5374 /* ExtendedNSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendedNSLog.m; sourceTree = "<group>"; };
+		4DD6AF7318C67D430073210E /* TweetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsViewController.h; sourceTree = "<group>"; };
+		4DD6AF7418C67D430073210E /* TweetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsViewController.m; sourceTree = "<group>"; };
+		4DD6AF8518C68CED0073210E /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		4DD6AF8618C68CED0073210E /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		4DF1A3D818521C3000E866ED /* BluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothDevice.h; sourceTree = "<group>"; };
+		4DF1A3D918521C3000E866ED /* BluetoothDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothDevice.m; sourceTree = "<group>"; };
+		4DF305C718C9DF5C002595A0 /* info-banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-banner.png"; sourceTree = "<group>"; };
+		4DFEF91918D8FCA800C003B2 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		4DFEF91A18D8FCA800C003B2 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		4DFEF91B18D8FCA800C003B2 /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NSDateTimeAgo.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D9F9E49185154D600ED63C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9F9E881851552500ED63C6 /* CoreBluetooth.framework in Frameworks */,
+				4D9F9E52185154D600ED63C6 /* CoreGraphics.framework in Frameworks */,
+				4D9F9E54185154D600ED63C6 /* UIKit.framework in Frameworks */,
+				4D9F9E50185154D600ED63C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0CA50F18C7312F000591E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D3FD28318C4E0A5005B9774 /* TweetViewController.h */,
+				4D3FD28418C4E0A5005B9774 /* TweetViewController.m */,
+				4DD6AF7318C67D430073210E /* TweetsViewController.h */,
+				4DD6AF7418C67D430073210E /* TweetsViewController.m */,
+				4DD6AF8518C68CED0073210E /* ConnectionViewController.h */,
+				4DD6AF8618C68CED0073210E /* ConnectionViewController.m */,
+				4D2A57B918C774AE0045F70F /* MainViewController.h */,
+				4D2A57BA18C774AE0045F70F /* MainViewController.m */,
+				4D2A57BF18C775690045F70F /* InfoViewController.h */,
+				4D2A57C018C775690045F70F /* InfoViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4D0CA51018C73146000591E3 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1A3D818521C3000E866ED /* BluetoothDevice.h */,
+				4DF1A3D918521C3000E866ED /* BluetoothDevice.m */,
+			);
+			name = Bluetooth;
+			sourceTree = "<group>";
+		};
+		4D3FD28618C5BB4A005B9774 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D3FD28918C5BDCF005B9774 /* BPreplayExtended.otf */,
+				4D3FD28A18C5BDCF005B9774 /* BPreplayExtendedBold.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		4D9F9E43185154D600ED63C6 = {
+			isa = PBXGroup;
+			children = (
+				4D9F9E55185154D600ED63C6 /* #SelfieShirt */,
+				4D9F9E4E185154D600ED63C6 /* Frameworks */,
+				4D9F9E4D185154D600ED63C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D9F9E4D185154D600ED63C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D9F9E4C185154D600ED63C6 /* #SelfieShirt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D9F9E4E185154D600ED63C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9F9E871851552500ED63C6 /* CoreBluetooth.framework */,
+				4D9F9E4F185154D600ED63C6 /* Foundation.framework */,
+				4D9F9E51185154D600ED63C6 /* CoreGraphics.framework */,
+				4D9F9E53185154D600ED63C6 /* UIKit.framework */,
+				4D9F9E71185154D600ED63C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D9F9E55185154D600ED63C6 /* #SelfieShirt */ = {
+			isa = PBXGroup;
+			children = (
+				4DFEF91718D8FC8300C003B2 /* Addons */,
+				4DD6AF7618C683E90073210E /* Assets */,
+				4D3FD28618C5BB4A005B9774 /* Fonts */,
+				4DF1A3DB1852209D00E866ED /* Classes */,
+				4D9F9E5E185154D600ED63C6 /* AppDelegate.h */,
+				4D9F9E5F185154D600ED63C6 /* AppDelegate.m */,
+				4D9F9E61185154D600ED63C6 /* Main_iPhone.storyboard */,
+				4D9F9E6A185154D600ED63C6 /* Images.xcassets */,
+				4D9F9E56185154D600ED63C6 /* Supporting Files */,
+				4DB22EC718964F120067B923 /* Settings.bundle */,
+			);
+			path = "#SelfieShirt";
+			sourceTree = "<group>";
+		};
+		4D9F9E56185154D600ED63C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D9F9E57185154D600ED63C6 /* #SelfieShirt-Info.plist */,
+				4D9F9E58185154D600ED63C6 /* InfoPlist.strings */,
+				4D9F9E5B185154D600ED63C6 /* main.m */,
+				4D9F9E5D185154D600ED63C6 /* #SelfieShirt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DBA434418FD3D3200DA5374 /* NSLog */ = {
+			isa = PBXGroup;
+			children = (
+				4DBA434518FD3D7900DA5374 /* ExtendedNSLog.h */,
+				4DBA434618FD3D7900DA5374 /* ExtendedNSLog.m */,
+			);
+			name = NSLog;
+			sourceTree = "<group>";
+		};
+		4DD6AF7618C683E90073210E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4D0DE43918DE52F2006D8A77 /* connection@2x.png */,
+				4D0DE43A18DE52F2006D8A77 /* flash@2x.png */,
+				4D0DE43B18DE52F2006D8A77 /* info@2x.png */,
+				4D0DE43C18DE52F2006D8A77 /* reconnect@2x.png */,
+				4D0DE43D18DE52F2006D8A77 /* twitter@2x.png */,
+				4D0DE43118DCE8E2006D8A77 /* flash.png */,
+				4D0DE43318DCE8E2006D8A77 /* reconnect.png */,
+				4D0DE42518DCE21E006D8A77 /* connection.png */,
+				4D0DE42718DCE21E006D8A77 /* info.png */,
+				4D0DE42918DCE21E006D8A77 /* twitter.png */,
+				4D9B8C0818CF6E30009EF105 /* default-selfie.jpg */,
+				4DF305C718C9DF5C002595A0 /* info-banner.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		4DF1A3DB1852209D00E866ED /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D0CA51018C73146000591E3 /* Bluetooth */,
+				4D0CA50F18C7312F000591E3 /* Views */,
+				4D9C888B185878C800A36E6F /* ApplicationState.h */,
+				4D9C888C185878C800A36E6F /* ApplicationState.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4DFEF91718D8FC8300C003B2 /* Addons */ = {
+			isa = PBXGroup;
+			children = (
+				4DBA434418FD3D3200DA5374 /* NSLog */,
+				4DFEF91818D8FC9100C003B2 /* TimeAgo */,
+			);
+			name = Addons;
+			sourceTree = "<group>";
+		};
+		4DFEF91818D8FC9100C003B2 /* TimeAgo */ = {
+			isa = PBXGroup;
+			children = (
+				4DFEF91918D8FCA800C003B2 /* NSDate+TimeAgo.h */,
+				4DFEF91A18D8FCA800C003B2 /* NSDate+TimeAgo.m */,
+				4DFEF91B18D8FCA800C003B2 /* NSDateTimeAgo.bundle */,
+			);
+			name = TimeAgo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D9F9E4B185154D600ED63C6 /* #SelfieShirt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9F9E81185154D600ED63C6 /* Build configuration list for PBXNativeTarget "#SelfieShirt" */;
+			buildPhases = (
+				4D9F9E48185154D600ED63C6 /* Sources */,
+				4D9F9E49185154D600ED63C6 /* Frameworks */,
+				4D9F9E4A185154D600ED63C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "#SelfieShirt";
+			productName = TwentyThings;
+			productReference = 4D9F9E4C185154D600ED63C6 /* #SelfieShirt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D9F9E44185154D600ED63C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Christian Auth";
+				TargetAttributes = {
+					4D9F9E4B185154D600ED63C6 = {
+						DevelopmentTeam = FAKU9V95KS;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4D9F9E47185154D600ED63C6 /* Build configuration list for PBXProject "#SelfieShirt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D9F9E43185154D600ED63C6;
+			productRefGroup = 4D9F9E4D185154D600ED63C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D9F9E4B185154D600ED63C6 /* #SelfieShirt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D9F9E4A185154D600ED63C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9F9E6B185154D600ED63C6 /* Images.xcassets in Resources */,
+				4D0DE42B18DCE21E006D8A77 /* connection.png in Resources */,
+				4DB22EC818964F120067B923 /* Settings.bundle in Resources */,
+				4D3FD28B18C5BDCF005B9774 /* BPreplayExtended.otf in Resources */,
+				4D0DE44118DE52F2006D8A77 /* reconnect@2x.png in Resources */,
+				4DFEF91D18D8FCA800C003B2 /* NSDateTimeAgo.bundle in Resources */,
+				4D0DE44018DE52F2006D8A77 /* info@2x.png in Resources */,
+				4D9F9E63185154D600ED63C6 /* Main_iPhone.storyboard in Resources */,
+				4D0DE42F18DCE21E006D8A77 /* twitter.png in Resources */,
+				4D0DE43F18DE52F2006D8A77 /* flash@2x.png in Resources */,
+				4D9B8C0918CF6E30009EF105 /* default-selfie.jpg in Resources */,
+				4D0DE43518DCE8E2006D8A77 /* flash.png in Resources */,
+				4D0DE43E18DE52F2006D8A77 /* connection@2x.png in Resources */,
+				4D9F9E5A185154D600ED63C6 /* InfoPlist.strings in Resources */,
+				4DF305C818C9DF5C002595A0 /* info-banner.png in Resources */,
+				4D3FD28C18C5BDCF005B9774 /* BPreplayExtendedBold.otf in Resources */,
+				4D0DE44218DE52F2006D8A77 /* twitter@2x.png in Resources */,
+				4D0DE43718DCE8E2006D8A77 /* reconnect.png in Resources */,
+				4D0DE42D18DCE21E006D8A77 /* info.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D9F9E48185154D600ED63C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2A57BB18C774AE0045F70F /* MainViewController.m in Sources */,
+				4D3FD28518C4E0A5005B9774 /* TweetViewController.m in Sources */,
+				4D9C888D185878C800A36E6F /* ApplicationState.m in Sources */,
+				4D9F9E60185154D600ED63C6 /* AppDelegate.m in Sources */,
+				4DD6AF8718C68CED0073210E /* ConnectionViewController.m in Sources */,
+				4DBA434718FD3D7900DA5374 /* ExtendedNSLog.m in Sources */,
+				4DFEF91C18D8FCA800C003B2 /* NSDate+TimeAgo.m in Sources */,
+				4D2A57C118C775690045F70F /* InfoViewController.m in Sources */,
+				4DF1A3DA18521C3000E866ED /* BluetoothDevice.m in Sources */,
+				4D9F9E5C185154D600ED63C6 /* main.m in Sources */,
+				4DD6AF7518C67D430073210E /* TweetsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D9F9E58185154D600ED63C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D9F9E59185154D600ED63C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D9F9E61185154D600ED63C6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D9F9E62185154D600ED63C6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D9F9E7F185154D600ED63C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D9F9E80185154D600ED63C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D9F9E82185154D600ED63C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "#SelfieShirt/#SelfieShirt-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/#SelfieShirt/#SelfieShirt-Info.plist";
+				PRODUCT_NAME = "#SelfieShirt";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D9F9E83185154D600ED63C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "#SelfieShirt/#SelfieShirt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/#SelfieShirt/#SelfieShirt-Info.plist";
+				PRODUCT_NAME = "#SelfieShirt";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D9F9E47185154D600ED63C6 /* Build configuration list for PBXProject "#SelfieShirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9F9E7F185154D600ED63C6 /* Debug */,
+				4D9F9E80185154D600ED63C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9F9E81185154D600ED63C6 /* Build configuration list for PBXNativeTarget "#SelfieShirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9F9E82185154D600ED63C6 /* Debug */,
+				4D9F9E83185154D600ED63C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D9F9E44185154D600ED63C6 /* Project object */;
+}
